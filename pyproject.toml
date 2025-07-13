@@ -36,7 +36,8 @@ dynamic = [
     "version",
 ]
 dependencies = [
-    "allianceauth>=4"
+    "allianceauth>=4",
+    "django-esi>=7.0.1"
 ]
 urls.Changelog = "https://github.com/DejarW/allianceauth-corpstats-two"
 urls."Issue / Bug Reports" = "https://github.com/DejarW/allianceauth-corpstats-two"
