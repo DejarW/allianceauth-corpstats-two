@@ -1,0 +1,50 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = [
+    "hatchling",
+]
+
+[project]
+name = "corpstatsII"
+description = "Extended Corpstats module for AllianceAuth"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = [
+    "allianceauth",
+    "corpstats",
+]
+authors = [
+    { name = "Jan Winter", email = "jan@mcwinter.org" },
+
+]
+requires-python = ">=3.10"
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 4.2",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+dynamic = [
+    "version",
+]
+dependencies = [
+    "allianceauth>=4"
+]
+urls.Changelog = "https://github.com/DejarW/allianceauth-corpstats-two"
+urls."Issue / Bug Reports" = "https://github.com/DejarW/allianceauth-corpstats-two"
+
+[tool.hatch.version]
+path = "corpstats/__init__.py"
+
+[tool.hatch.build]
+include = [
+    "/corpstats",
+]
