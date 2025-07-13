@@ -8,7 +8,7 @@ requires = [
 name = "corpstatsII"
 description = "Extended Corpstats module for AllianceAuth"
 readme = "README.md"
-license = {file = "LICENSE"}
+license = "GPL-2.0"
 keywords = [
     "allianceauth",
     "corpstats",
