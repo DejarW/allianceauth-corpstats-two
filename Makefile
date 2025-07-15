@@ -1,6 +1,6 @@
 appname = corptax
 package = corptax
-version = 1.1.8
+version = 1.1.9
 
 # Default goal
 .DEFAULT_GOAL := help
