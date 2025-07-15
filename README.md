@@ -17,9 +17,6 @@ pip install corpstatsII
 
 ### Electric Boogaloo!
 
-[![Coverage Status](https://coveralls.io/repos/github/pvyParts/allianceauth-corpstats-two/badge.svg?branch=master)](https://coveralls.io/github/pvyParts/allianceauth-corpstats-two?branch=master) [![Build Status](https://travis-ci.com/pvyParts/allianceauth-corpstats-two.svg?branch=master)](https://travis-ci.com/pvyParts/allianceauth-corpstats-two)
-
-
 Extended Corpstats module for [AllianceAuth](https://gitlab.com/allianceauth/allianceauth) with some extra features around corp member tracking, and auth utilization.
 
 Includes:
@@ -34,8 +31,11 @@ Based on the hard work of:
  * [Ariel Rin](https://gitlab.com/soratidus999/allianceauth/tree/new-corpstats)
  * [Adarnof](https://github.com/Adarnof/allianceauth/tree/new_corpstats)
 
+Previous Dev (all credits to him, for this app!):
+* [AaronKable](https://github.com/pvyParts)
+
 Active Devs:
- * [Dejar Winter](https://github.com/DejarW/)
+* [Dejar Winter](https://github.com/DejarW/)
  
 ## Installation
  1. Install the Repo `pip install corpstatsII`
