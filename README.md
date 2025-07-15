@@ -1,4 +1,20 @@
 # CorpStats 2.0
+
+## CorpStatsII fork
+[This is a fork from the orginal CorpStat 2.0](https://github.com/Solar-Helix-Independent-Transport/allianceauth-corpstats-two)
+
+To migrate from CorpStats to this fork, run the following
+
+* source in your env.
+
+```bash
+pip uninstall aa-corpstats-two
+pip install corpstatsII
+```
+
+* restart auth
+
+
 ### Electric Boogaloo!
 
 [![Coverage Status](https://coveralls.io/repos/github/pvyParts/allianceauth-corpstats-two/badge.svg?branch=master)](https://coveralls.io/github/pvyParts/allianceauth-corpstats-two?branch=master) [![Build Status](https://travis-ci.com/pvyParts/allianceauth-corpstats-two.svg?branch=master)](https://travis-ci.com/pvyParts/allianceauth-corpstats-two)
@@ -13,20 +29,16 @@ Includes:
  * Member Tracking
    * Last Login and Duration
    * Last known ship
-
-Upcoming:
-  * Member Location Tracking
-    * Last known location of members
  
 Based on the hard work of:
  * [Ariel Rin](https://gitlab.com/soratidus999/allianceauth/tree/new-corpstats)
  * [Adarnof](https://github.com/Adarnof/allianceauth/tree/new_corpstats)
 
 Active Devs:
- * [AaronKable](https://github.com/pvyParts)
+ * [Dejar Winter](https://github.com/DejarW/)
  
 ## Installation
- 1. Install the Repo `pip install aa-corpstats-two`
+ 1. Install the Repo `pip install corpstatsII`
  2. Add `'corpstats',` to your `INSTALLED_APPS` in your projects `local.py`
  3. run migrations and restart auth
  3. setup your perms as documented below
@@ -51,6 +63,9 @@ Is very well documented [here](https://allianceauth.readthedocs.io/en/latest/fea
 Make sure you have signed the [License Agreement](https://developers.eveonline.com/resource/license-agreement) by logging in at https://developers.eveonline.com before submitting any pull requests. All bug fixes or features must not include extra superfluous formatting changes.
 
 ## Changes
+1.1.9
+* Support Alliance Auth => 4.0
+
 1.1.0
  * Added service activation information
  * Modified alliance view to show all corpstats visible to a user
