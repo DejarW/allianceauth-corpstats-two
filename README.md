@@ -12,6 +12,13 @@ pip uninstall aa-corpstats-two
 pip install corpstatsII
 ```
 
+* run migrations and static data
+
+```bash
+python /home/allianceserver/myauth/manage.py migrate
+python /home/allianceserver/myauth/manage.py collectstatic --noinput
+```
+
 * restart auth
 
 
