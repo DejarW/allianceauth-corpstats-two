@@ -63,7 +63,7 @@ Is very well documented [here](https://allianceauth.readthedocs.io/en/latest/fea
 Make sure you have signed the [License Agreement](https://developers.eveonline.com/resource/license-agreement) by logging in at https://developers.eveonline.com before submitting any pull requests. All bug fixes or features must not include extra superfluous formatting changes.
 
 ## Changes
-1.1.9
+1.1.8
 * Support Alliance Auth => 4.0
 
 1.1.0
